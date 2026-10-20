@@ -26,6 +26,55 @@ export default function Home() {
                     </Link>
                 </div>
             </section>
+
+
+            <section className="mx-auto max-w-7xl px-6 py-16">
+                <h2 className="text-3xl font-extrabold">
+                    Nosso jeito de cuidar
+                </h2>
+
+                <p className="mt-4 max-w-2xl leading-7 text-gray-600">
+                    Cada pet tem seu jeito e suas necessidades. Escolher os produtos
+                    certos também é uma forma de demonstrar carinho.
+                </p>
+
+                <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <article className="rounded-2xl border border-orange-100 p-6">
+                        <span className="text-3xl">🥣</span>
+                        <h3 className="mt-4 text-xl font-bold">
+                            Boa alimentação
+                        </h3>
+                        <p className="mt-3 leading-7 text-gray-600">
+                            Opções para manter seu companheiro bem cuidado em todas as
+                            fases da vida.
+                        </p>
+                    </article>
+
+                    <article className="rounded-2xl border border-orange-100 p-6">
+                        <span className="text-3xl">🧸</span>
+                        <h3 className="mt-4 text-xl font-bold">
+                            Diversão todo dia
+                        </h3>
+                        <p className="mt-3 leading-7 text-gray-600">
+                            Brinquedos e acessórios para estimular as brincadeiras e
+                            criar bons momentos.
+                        </p>
+                    </article>
+
+                    <article className="rounded-2xl border border-orange-100 p-6">
+                        <span className="text-3xl">❤️</span>
+                        <h3 className="mt-4 text-xl font-bold">
+                            Carinho em primeiro lugar
+                        </h3>
+                        <p className="mt-3 leading-7 text-gray-600">
+                            Produtos pensados para fazer parte da rotina de quem você ama.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
         </div>
+
+
     );
 }
