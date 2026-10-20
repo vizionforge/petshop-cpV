@@ -73,6 +73,28 @@ export default function Home() {
                 </div>
             </section>
 
+            <section className="mx-6 mb-16 rounded-3xl bg-gray-900 px-6 py-12 text-center text-white sm:mx-8 md:mx-auto md:max-w-7xl md:px-12 md:py-16">
+                <p className="text-sm font-bold uppercase tracking-widest text-orange-300">
+                    Seu próximo mimo está aqui
+                </p>
+
+                <h2 className="mx-auto mt-4 max-w-2xl text-3xl font-extrabold sm:text-4xl">
+                    Porque eles fazem parte da família.
+                </h2>
+
+                <p className="mx-auto mt-4 max-w-xl leading-7 text-gray-300">
+                    Descubra produtos para alimentação, brincadeiras e conforto
+                    e escolha o próximo favorito do seu pet.
+                </p>
+
+                <Link
+                    to="/produtos"
+                    className="mt-7 inline-flex rounded-full bg-orange-500 px-7 py-3.5 font-bold text-white transition hover:bg-orange-600"
+                >
+                    Ver todos os produtos
+                </Link>
+            </section>
+
         </div>
 
 
